@@ -11,7 +11,7 @@
 
 // Your WiFi credentials
 const char* ssid = "Vinaya's Samsung Galaxy M34";
-const char* password = "vinaya@05";
+const char* password = "";
 
 // ThingSpeak settings
 const char* thingSpeakServer = "api.thingspeak.com";
@@ -19,8 +19,8 @@ String thingSpeakApiKey = "4RUIP27D982EYP65";
 unsigned long thingSpeakChannelID = 2920754;
 
 // Zapier Webhook URLs
-const char* zapierEmailWebhookURL = "https://hooks.zapier.com/hooks/catch/22539968/2xoxteq/";
-const char* zapierSMSWebhookURL = "https://hooks.zapier.com/hooks/catch/22539968/2xoxteq/";
+const char* zapierEmailWebhookURL = ""https://hooks.zapier.com/hooks/catch/22539968/2xoxteq/"";
+const char* zapierSMSWebhookURL = ""https://hooks.zapier.com/hooks/catch/22539968/2xoxteq/"";
 
 WiFiClient client;
 
